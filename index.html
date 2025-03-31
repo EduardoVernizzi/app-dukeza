@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <!--Importando o Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!--Importando o Bootstrap-->
+
+  <!--Importando o Fonts Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <!--Importando o Fonts Awesome-->
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!--Google Fonts-->
+
+  <!--Referenciando o arquivo CSS-->
+  <link rel="stylesheet" href="./css/styles.css">
+  <!--Referenciando o arquivo CSS-->
+
+  <title>App Dukeza</title>
+</head>
+
+<body>
+
+  <header id="title">
+
+
+    <div class="container-fluid">
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Dukeza App</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">
+                Contatos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">
+                Planos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testemonials">
+                Feedbacks
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">
+                Download
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--navbar-->
+      <div class="row">
+        <div class="col-lg-6 ">
+          <h1 class="texto-cabecalho">Encontre o par perfeito para o seu gato!</h1>
+          <button class="btn btn-dark btn-lg" id="botao-download"> <i class="fab fa-apple"> Download</i></button>
+          <button class="btn btn-outline-light btn-lg" id="botao-download"><i class="fa-brands fa-google-play">
+              Download</i></button>
+        </div>
+        <figure class="col-lg-6 ">
+          <img class="title-image" src="./img/Gatinho.png" alt="Gatinho feliz" />
+        </figure>
+
+      </div>
+    </div>
+
+
+  </header>
+
+  <section id="features">
+    <div class="row">
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Fácil de usar</h3>
+        <p>Tão fácil de usar que até seu cachorro poderia fazer isso</p>
+      </div>
+
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-bullseye fa-4x"></i>
+        <h3>Os melhores gatos</h3>
+        <p>Temos os melhores gatinhos pra você</p>
+      </div>
+
+
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-heart fa-4x"></i>
+        <h3>Gato ama!!</h3>
+        <p>Encontre o gatinho ideal pra você</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testemonials">
+
+    <!-- Carousel -->
+
+    <div id="testemonials-carousel" class="carousel slide">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testemonials-carousel" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testemonials-carousel" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+
+      </div>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2> - " Muito prático o sistema, perfeito para encontrar um companheiro para seu pet 😍 "</h2>
+          <img class="testemonials-img" src="./img/Eduardo.png" alt=Eduardo">
+
+          <em>Eduardo - Maceió, Alagoas</em>
+        </div>
+
+        <div class="carousel-item ">
+          <h2> - " Plataforma muito prática, recomendo!! "</h2>
+          <img class="testemonials-img" src="./img/thiago.jpeg" alt="Thiago">
+
+          <em>Thiago - Poá, São Paulo</em>
+        </div>
+
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testemonials-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testemonials-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <!-- End Carousel -->
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+  <section id="parallax">
+
+  </section>
+
+  <section id="pricing">
+
+
+    <!--CARDS-->
+
+    <h2 class="title-pricing">Um plano para a necessidade de cada gato</h2>
+    <p class="subtitle-pricing">Planos acessíveis para você e seu gato.</p>
+
+
+    <div class=" cards-pricing row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+      <div class="card-item col-lg-4 col-md-6">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Basic</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Grátis</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>5 curtidas por dia</li>
+              <li>10 mensagens por dia</li>
+              <li>Acesso básico</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-outline-dark">Inscreva-se</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item col-lg-4 col-md-6">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$ 25,00 <small class="text-body-secondary fw-light">/ mês</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 curtidas por dia</li>
+              <li>Mensagens ilimitadas</li>
+              <li>Acesso pleno do app</li>
+            </ul>
+            <button type="button" class="w-100 btn  btn-outline-dark">Inscreva-se</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card-item col-lg-4 col-md-12">
+        <div class="card mb-4 rounded-3  shadow-sm ">
+          <div class="card-header py-3  ">
+            <h4 class="my-0 fw-normal">Premium</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$50 <small class="text-body-secondary fw-light">/ mês</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Curtidas ilimitadas</li>
+              <li>Mensagens ilimitadas</li>
+              <li>Acesso completo do app</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-outline-warning">Inscreva-se</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+    <!--CARDS-->
+
+
+  </section>
+
+  <section id="cta">
+    <h3 class="text-cta">Faça agora mesmo o download</h3>
+    <button class="btn btn-dark btn-lg" id="botao-download"> <i class="fab fa-apple"> Download</i></button>
+    <button class="btn btn-outline-light btn-lg" id="botao-download"><i class="fa-brands fa-google-play">
+        Download</i></button>
+  </section>
+
+  <footer id="footer">
+    <i class="footer-icon fa-brands fa-facebook-f fa-2x"></i>
+    <i class="footer-icon fa-brands fa-twitter fa-2x"></i>
+    <i class="footer-icon fa-brands fa-instagram fa-2x"></i>
+    <i class="footer-icon fa-solid fa-envelope fa-2x"></i>
+    <p class="copyright">© Copyright 2025 AppDukeza</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,329 @@
+@charset "UTF-8";
+
+
+/*=======================SEÇÃO DE TAGS =============================*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat-Black';
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat-Bold';
+
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+
+
+
+
+
+/*=====================SEÇÃO DE CLASSES ===========================*/
+
+
+/*  HEADER */
+
+.container-fluid {
+  padding: 3% 15% 15%;
+}
+
+/* Navigation bar*/
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 3rem;
+  margin-right: -15%;
+}
+
+.nav-item {
+  padding: 0 18px;
+  
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Navigation bar*/
+
+/*title-image*/
+
+.title-image {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 16%;
+}
+
+
+/*title-image*/
+
+/* Header text */
+
+.texto-cabecalho {
+  margin-bottom: 2rem;
+  font-family: 'Montserrat-black';
+}
+
+/* Header text */
+
+/*  HEADER */
+
+
+
+/*  FEATURES */
+
+
+
+.feature-box {
+
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*  FEATURES */
+
+
+/*  TESTEMONIALS */
+.testemonials-img {
+  width: 20%;
+  border-radius: 40%;
+  margin: 20px;
+
+}
+
+.carousel-item {
+  height: 500px;
+  padding: 7% 10%;
+
+}
+
+/*  TESTEMONIALS */
+
+/* PRESS */
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px auto;
+}
+
+/* PRESS */
+
+/* PRICING */
+
+.title-pricing{
+  text-align: center;
+  padding: 7% 10% 0 7%;
+}
+.subtitle-pricing{
+  text-align: center;
+}
+
+.cards-pricing {
+  margin: 5%;
+}
+
+.cards-item{
+  transition: 0.6s ease;
+  
+}
+
+.card-item:hover{
+  transform: translateY(-20px);
+  transition: 1s;
+  cursor: pointer;
+}
+
+
+.cards-pricing:hover .card-item{
+  opacity: .3;
+}
+.cards-pricing .card-item:hover{
+ opacity: 1;
+}
+
+/* PRICING */
+
+/* CTA */
+.text-cta{
+  padding: 7% 10% 2% 7%;
+  font-family: 'Montserrat-black', sans-serif;
+  color: white;
+  font-size: 3rem;
+}
+
+/* CTA */
+
+/*FOOTER*/
+
+
+.footer-icon{
+  padding: 3% 3%;
+}
+
+
+/*FOOTER*/
+
+
+
+
+
+/*=======================SEÇÃO DE ID =============================*/
+
+/*  HEADER */
+
+#title {
+  background-color: #1c1d35;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+
+}
+
+
+#titulo-header {
+  font-family: 'Montserrat-black', 'sans-serif';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#botao-download {
+  margin: 0 10px 0 0;
+}
+
+/*  HEADER */
+
+/* FEATURES*/
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+/* FEATURES*/
+
+/*  TESTEMONIALS */
+
+#testemonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/*  TESTEMONIALS */
+
+
+/* PARALLAX */
+
+#parallax {
+  position: relative;
+  background-image: url('/img/casal.jpg');
+  background-attachment: fixed; /* Faz com que o fundo tenha o efeito parallax */
+  background-size: cover;
+  background-position: center;
+  height: 80vh; /* Ajuste o tamanho da seção */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+
+}
+
+/* PARALLAX */
+
+/* PRICING */
+
+#pricing{
+  background-color: #fff;
+}
+/* PRICING */
+
+/* CTA */
+
+#cta{
+  background-color: #ef8172;
+  padding: 7% 10%;
+  text-align: center;
+  
+
+}
+/* CTA */
+
+/* FOOTER */
+
+#footer{
+  background-color: #fff;
+  padding: 7% 10%;
+  text-align: center;
+  font-family: 'Montserrat-black', sans-serif;
+ 
+}
+/* FOOTER */
+
+
+/*========================== REPONSIVIDADE DO SITE===========================*/
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin-top: 15%;
+    width: 60%;
+  
+  }
+
+  #parallax{
+    position: relative;
+    background-image: url('/img/casal.jpg');
+    background-attachment: fixed; /* Faz com que o fundo tenha o efeito parallax */
+    background-size: 150%;
+    background-position: center;
+    height: 100vh; /* Ajuste o tamanho da seção */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+  }
+
+
+}
