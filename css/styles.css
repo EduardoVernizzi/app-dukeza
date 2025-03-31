@@ -59,7 +59,7 @@ p {
 
 .nav-item {
   padding: 0 18px;
-  
+
 }
 
 .nav-link {
@@ -134,20 +134,15 @@ p {
 
 /* PRESS */
 
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px auto;
-}
-
-/* PRESS */
 
 /* PRICING */
 
-.title-pricing{
+.title-pricing {
   text-align: center;
   padding: 7% 10% 0 7%;
 }
-.subtitle-pricing{
+
+.subtitle-pricing {
   text-align: center;
 }
 
@@ -155,29 +150,30 @@ p {
   margin: 5%;
 }
 
-.cards-item{
+.cards-item {
   transition: 0.6s ease;
-  
+
 }
 
-.card-item:hover{
+.card-item:hover {
   transform: translateY(-20px);
   transition: 1s;
   cursor: pointer;
 }
 
 
-.cards-pricing:hover .card-item{
+.cards-pricing:hover .card-item {
   opacity: .3;
 }
-.cards-pricing .card-item:hover{
- opacity: 1;
+
+.cards-pricing .card-item:hover {
+  opacity: 1;
 }
 
 /* PRICING */
 
 /* CTA */
-.text-cta{
+.text-cta {
   padding: 7% 10% 2% 7%;
   font-family: 'Montserrat-black', sans-serif;
   color: white;
@@ -189,7 +185,7 @@ p {
 /*FOOTER*/
 
 
-.footer-icon{
+.footer-icon {
   padding: 3% 3%;
 }
 
@@ -231,6 +227,7 @@ p {
   background-color: #fff;
   padding: 7% 15%;
 }
+
 /* FEATURES*/
 
 /*  TESTEMONIALS */
@@ -249,11 +246,13 @@ p {
 
 #parallax {
   position: relative;
-  background-image: url('/img/casal.jpg');
-  background-attachment: fixed; /* Faz com que o fundo tenha o efeito parallax */
+  background-image: url('../img/casal.jpg');
+  background-attachment: fixed;
+  /* Faz com que o fundo tenha o efeito parallax */
   background-size: cover;
   background-position: center;
-  height: 80vh; /* Ajuste o tamanho da seção */
+  height: 80vh;
+  /* Ajuste o tamanho da seção */
   color: white;
   display: flex;
   justify-content: center;
@@ -267,56 +266,62 @@ p {
 
 /* PRICING */
 
-#pricing{
+#pricing {
   background-color: #fff;
 }
+
 /* PRICING */
 
 /* CTA */
 
-#cta{
+#cta {
   background-color: #ef8172;
   padding: 7% 10%;
   text-align: center;
-  
+
 
 }
+
 /* CTA */
 
 /* FOOTER */
 
-#footer{
+#footer {
   background-color: #fff;
   padding: 7% 10%;
   text-align: center;
   font-family: 'Montserrat-black', sans-serif;
- 
+
 }
+
 /* FOOTER */
 
 
 /*========================== REPONSIVIDADE DO SITE===========================*/
 
-@media (max-width: 1028px){
+@media (max-width: 1028px) {
 
-  #title{
+  #title {
     text-align: center;
   }
-  .title-image{
+
+  .title-image {
     position: static;
     transform: rotate(0);
     margin-top: 15%;
     width: 60%;
-  
+
   }
 
-  #parallax{
+  #parallax {
     position: relative;
     background-image: url('/img/casal.jpg');
-    background-attachment: fixed; /* Faz com que o fundo tenha o efeito parallax */
+    background-attachment: fixed;
+    /* Faz com que o fundo tenha o efeito parallax */
     background-size: 150%;
     background-position: center;
-    height: 100vh; /* Ajuste o tamanho da seção */
+    height: 100vh;
+    /* Ajuste o tamanho da seção */
     color: white;
     display: flex;
     justify-content: center;
