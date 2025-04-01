@@ -253,12 +253,9 @@ p {
 #parallax {
   position: relative;
   background-image: url('../img/casal.jpg');
-  background-attachment: fixed;
-  /* Faz com que o fundo tenha o efeito parallax */
   background-size: cover;
   background-position: center;
   height: 80vh;
-  /* Ajuste o tamanho da seção */
   color: white;
   display: flex;
   justify-content: center;
@@ -267,6 +264,23 @@ p {
   z-index: 1;
 
 }
+
+/* Parallax no desktop */
+@media (min-width: 768px) {
+  #parallax {
+    background-attachment: fixed;
+  }
+}
+
+/* No mobile, vamos simular o efeito com a rolagem */
+@media (max-width: 767px) {
+  #parallax {
+    background-attachment: scroll;
+    /* Faz o fundo rolar junto com o conteúdo */
+    background-position: center top;
+  }
+}
+
 
 /* PARALLAX */
 
